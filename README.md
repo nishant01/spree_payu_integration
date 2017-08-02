@@ -9,7 +9,7 @@ Installation
 Add spree_payu_integration to your Gemfile:
 
 ```ruby
-gem 'spree_payu_integration', github: 'netguru/spree_payu_integration'
+gem 'spree_payu_integration', github: 'nishant01/spree_payu_integration'
 ```
 
 Bundle your dependencies and run the installation generator:
