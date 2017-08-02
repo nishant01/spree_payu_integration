@@ -7,17 +7,16 @@ Gem::Specification.new do |s|
   s.description = 'Spree integration with PayU.'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author    = 'Sebastian Sito'
-  s.email     = 'hi@netguru.co'
-  s.homepage  = 'https://github.com/netguru/spree_payu_integration'
+  s.author    = 'Nishant Sinha'
+  s.email     = 'nishant01@gmail.com'
+  s.homepage  = 'https://github.com/nishant01/spree_payu_integration'
 
   s.post_install_message = 'spree_payu_integration on branch master is now for development only - use specific branch e. g. `2-1-stable` for Spree in 2.1 version'
 
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '>= 2.3.0'
-  s.add_dependency 'spree_frontend', '>= 2.3.0'
+  s.add_dependency 'solidus_core', '~> 1.4'
   s.add_dependency 'openpayu', '~> 0.1.2'
 
   s.add_development_dependency 'capybara', '~> 2.1'
